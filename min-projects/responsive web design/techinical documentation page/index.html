@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header class="head">C Programming Documentation</header class="head">
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Syntax" class="nav-link">Syntax</a>
+        <a href="#Data_Types" class="nav-link">Data Types</a>
+        <a href="#Control_Structures" class="nav-link">Control Structures</a>
+        <a href="#Functions" class="nav-link">Functions</a>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header class="head"><b>Introduction</b></header>
+            <p>C is a powerful general-purpose programming language. It is fast, portable, and available on all platforms. It was developed in the early 1970s by Dennis Ritchie and remains widely used today for system and application development.</p>
+            <p>C is commonly used to develop operating systems, embedded systems, databases, and more.</p>
+            <code>int main() { printf("Hello, World!"); return 0; }</code>
+        </section>
+        <section id="Syntax" class="main-section">
+            <header class="head"><b>Syntax</b></header>
+            <p>C programs follow a simple structure:</p>
+            <ul>
+                <li>Preprocessor commands (e.g., <code>#include &lt;stdio.h&gt;</code>)</li>
+                <li>Function declarations and definitions</li>
+                <li>Statements within blocks of code (using braces <code>{}</code>)</li>
+            </ul>
+            <p>A basic C program that prints "Hello, World!" looks like this:</p>
+            <code>#include &lt;stdio.h&gt;</code>
+            <code>int main() { printf("Hello, World!"); return 0; }</code>
+        </section>
+        <section id="Data_Types" class="main-section">
+            <header class="head"><b>Data Types</b></header >
+            <p>C supports several built-in data types:</p>
+            <ul>
+                <li><code>int</code>: Integer data type</li>
+                <li><code>float</code>: Floating point number</li>
+                <li><code>char</code>: Character type</li>
+                <li><code>double</code>: Double precision floating point number</li>
+            </ul>
+            <p>For example, declaring variables of different data types:</p>
+            <code>int age = 30;</code>
+            <code>float pi = 3.14;</code>
+            <code>char initial = 'A';</code>
+        </section>
+        <section id="Control_Structures" class="main-section">
+            <header class="head"><b>Control Structures</b></header>
+            <p>C includes control structures for decision making and loops:</p>
+            <ul>
+                <li><code>if</code> and <code>else</code> for decision-making</li>
+                <li><code>for</code> loop for iteration</li>
+                <li><code>while</code> loop for conditional looping</li>
+            </ul>
+            <p>An example of an <code>if</code> condition in C:</p>
+            <code>if (age &gt; 18) { printf("You are an adult."); }</code>
+            <p>Example of a <code>for</code> loop in C:</p>
+            <code>for (int i = 0; i &lt; 10; i++) { printf("%d ", i); }</code>
+        </section>
+        <section id="Functions" class="main-section">
+            <header class="head"><b>Functions</b></header>
+            <p>Functions in C allow you to break the program into reusable blocks of code. A function is defined with a return type, a name, and parameters.</p>
+            <p>The basic syntax of a function in C:</p>
+            <code>return_type function_name(parameters) { // function body }</code>
+            <p>For example, a function that adds two numbers:</p>
+            <code>int add(int a, int b) { return a + b; }</code>
+            <p>To call the function:</p>
+            <code>int result = add(5, 3);</code>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SurveyForm</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="main">
+      <header class="heading">
+        <h1 id="title">INTERNSHIP AND TRAINING PROGRAM</h1>
+        <p id="description">
+          Dear students ,We are thrilled to invite you to join our exclusive
+          3-month online Training, Internship Program with Google This
+          opportunity is designed to help you gain real-world experience and
+          industry-ready skills with top MNCs.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="box">
+          <div class="boxmain">
+            <label id="name-label" for="name">STUDENT NAME</label>
+          </div>
+          <div class="boxinput">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Enter your Name"
+              class="form"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxmain">
+            <label id="email-label" for="email">STUDENT EMAIL ID</label>
+          </div>
+          <div class="boxinput">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter your Email"
+              class="form"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxmain">
+            <label id="number-label" for="email">CONTACT NUMBER</label>
+          </div>
+          <div class="boxinput">
+            <input
+              type="phonenumber"
+              name="phonenumber"
+              id="phonenumber"
+              required
+              placeholder="Enter your contact number"
+              class="form"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="boxmain">
+            <label id="age-label" for="email">AGE</label>
+          </div>
+          <div class="boxinput">
+            <input
+              type="number"
+              name="number"
+              id="number"
+              required
+              placeholder="16+"
+              class="form"
+              min="16"
+              max="99"
+            />
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxmain">
+            <label for="dropdown"><strong>YEAR OF STUDY</strong> </label>
+          </div>
+          <br />
+
+          <select id="dropdown" name="role" class="form-control" required>
+            <div class="boxinput">
+              <option disabled selected value>Select current role</option>
+            </div>
+            <div class="boxinput">
+              <option value="firstyear">first year</option>
+            </div>
+            <div class="boxinput">
+              <option value="secondyear">second year</option>
+            </div>
+            <div class="boxinput">
+              <option value="thirdyear">third year</option>
+            </div>
+            <div class="boxinput">
+              <option value="fourthyear">fourth year</option>
+            </div>
+            <div class="boxinput">
+              <option value="graduated">graduated</option>
+            </div>
+          </select>
+        </div>
+        <div class="box">
+          <div class="boxmain"><p>DOMAIN INTERESTED TO UPSKILL</p></div>
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value=" DIGITAL MARKETING"
+          />DIGITAL MARKETING<br />
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value=" HUMAN RESOURCE"
+          />HUMAN RESOURCE<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="BUSINESS ANALYTICS"
+          />
+
+          BUSINESS ANALYTICS<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="STOCK MARKET"
+          />
+
+          STOCK MARKET<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="SUPPLY CHAIN MANAGEMENT"
+          />
+
+          SUPPLY CHAIN MANAGEMENT<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="GRAPHIC DESIGN"
+          />
+
+          GRAPHIC DESIGN<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="FULL STACK WEB DEVELOPMENT"
+          />
+
+          FULL STACK WEB DEVELOPMENT<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="HUMAN RESOURCE"
+          />
+
+          HUMAN RESOURCE<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="ANDROID APP DEVELOPMENT"
+          />
+
+          ANDROID APP DEVELOPMENT<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="ARTIFICIAL INTELLIGENCE"
+          />
+
+          ARTIFICIAL INTELLIGENCE<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="MACHINE LEARNING"
+          />
+
+          MACHINE LEARNING<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="CYBER SECURITY"
+          />
+
+          CYBER SECURITY<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="DATA SCIENCE"
+          />
+
+          DATA SCIENCE<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="DATA ANALYTICS"
+          />
+
+          DATA ANALYTICS<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="UI/UX DESIGN"
+          />
+
+          UI/UX DESIGN<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="EMBEDDED SYSTEM"
+          />
+
+          EMBEDDED SYSTEM<br />
+
+          <input
+            type="checkbox"
+            class="input-checkbox"
+            name="domain"
+            value="CLOUD COMPUTING"
+          />
+
+          CLOUD COMPUTING<br />
+        </div>
+        <div class="box">
+          <div class="boxmain">
+            <p>PREFFERED LANGUAGE FOR COMMUNICATION</p>
+          </div>
+
+          <input
+            type="radio"
+            class="input-radio"
+            name="domain"
+            value="ENGLISH"
+          />
+
+          ENGLISH<br />
+
+          <input
+            type="radio"
+            class="input-radio"
+            name="domain"
+            value="SPANISH"
+          />
+
+          SPANISH<br />
+
+          <input
+            type="radio"
+            class="input-radio"
+            name="domain"
+            value="FRENCH"
+          />
+
+          FRENCH<br />
+
+          <input
+            type="radio"
+            class="input-radio"
+            name="domain"
+            value="CHINESE"
+          />
+
+          CHINESE<br />
+
+          <input type="radio" class="input-radio" name="domain" value="HINDI" />
+
+          HINDI<br />
+        </div>
+        <div class="box">
+          <div class="boxmain"><p>Why did you choose this course?</p></div>
+          <div class="boxinput">
+            <textarea
+              name="comment"
+              id="comments"
+              placeholder="Enter your comment here...."
+            >
+            </textarea>
+          </div>
+        </div>
+        <div>
+          <div>
+          <div class="button1"><button type="submit" id="submit">Submit</button></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
